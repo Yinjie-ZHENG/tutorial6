@@ -23,7 +23,7 @@ react-native run-android
 If you want to check whether my mobile program can solve the case when server data has changed, you can:
 # Test if the database change
 ## In Server: remove all data
-``` 
+``` python
 #This command is to remove all the data in database
 mongo issuetracker --eval "db.issues.remove({})"
 ##This command is to load the data in database
